@@ -6,7 +6,7 @@ const Social = () => {
   return (
     <div className='social flex flex-row justify-center items-center mt-12 gap-6'>
         <a href="@IOS"><img src={Slack} alt="slack" /></a>
-        <a href="http://github/iosfullstack"><img src={Github} alt="github" /></a>
+        <a href="http://github/iosfullstack/Zuri"><img src={Github} alt="github" /></a>
     </div>
   )
 }
