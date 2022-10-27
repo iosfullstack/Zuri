@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+html {
+  overflow-x: hidden;
+}
+
+.profile>p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #101828;
+}
+
+.share {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 208px;
+  top: 90px;
+  border-radius: 50%;
+  border: 2px dotted gray;
+}
+
+.shared {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 208px;
+  top: 90px;
+  display: none;
+}
+
+.flex-col>a {
+  width: 1152px;
+  height: 76px;
+  background: rgb(187, 186, 186);
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #101828;
+}
+
+.zuri>p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #101828;
+}
+
+.hng {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+@media screen and (min-width:320px) and (max-width: 768px) {
+  .share {
+    display: none;
+  }
+
+  .shared {
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+  }
+
+  .flex-col>a {
+    width: 320px;
+  }
+
+  .book {
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .social {
+    display: none;
+  }
+}
