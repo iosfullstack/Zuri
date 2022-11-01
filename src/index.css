@@ -85,10 +85,16 @@ html {
   }
 
   .footer {
-    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
   }
 
-  .social {
-    display: none;
+  .zuri {
+    padding-bottom: 10px;
+  }
+
+  .hng {
+    padding-bottom: 10px;
   }
 }
